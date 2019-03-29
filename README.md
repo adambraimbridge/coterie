@@ -1,2 +1,1 @@
-# mupi
-Alt + m + p
+# Coterie
