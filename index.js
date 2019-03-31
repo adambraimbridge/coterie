@@ -1,9 +1,5 @@
-'use strict';
+const verify = require("./src/verify")
 
-exports.http = (request, response) => {
-  response.status(200).send('Hello World!');
-};
-
-exports.event = (event, callback) => {
-  callback();
-};
+module.exports = {
+  verify,
+}
