@@ -55,14 +55,13 @@ typings/
 .yarn-integrity
 
 # dotenv environment variables file
-.env
+*.env*
 
 # next.js build output
 .next
 
 # Serverless
 .serverless
-.env
 tmp
 .coveralls.yml
 
