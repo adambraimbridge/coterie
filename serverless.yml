@@ -12,7 +12,7 @@ provider:
   # the path to the credentials file needs to be absolute
   credentials: ~/.gcloud/coterie-236020-bc37d49f2ff0.json
 
-resources: ${file(./.env.yml)}
+environment: ${file(./.env.yml)}
 
 plugins:
   - serverless-google-cloudfunctions
