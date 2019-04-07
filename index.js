@@ -1,4 +1,4 @@
-const verify = require("./src/verify")
+const verify = require("./handlers/verify")
 
 module.exports = {
   verify,
