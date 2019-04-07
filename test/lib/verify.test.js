@@ -7,6 +7,7 @@ const mockResponse = () => {
     const response = {}
     response.send = jest.fn().mockReturnValue(response)
     response.status = jest.fn().mockReturnValue(response)
+    response.header = jest.fn().mockReturnValue(response)
     response.json = jest.fn().mockReturnValue(response)
     response.end = jest.fn().mockReturnValue(response)
     return response
@@ -21,7 +22,7 @@ describe('Given a verification request', () => {
         const response = mockResponse()
         expect(verify(request, response)).toBe(false)
         expect(response.status).toHaveBeenCalledWith(401)
-        expect(response.json).toHaveBeenCalled()
+        expect(response.send).toHaveBeenCalled()
     })
     test('it correctly approves', () => {
         const request = mockRequest({
