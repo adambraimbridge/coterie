@@ -1,19 +1,18 @@
 {
-  "name": "coterie",
-  "version": "0.1.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "jest --verbose"
-  },
-  "author": "Adam Braimbridge <adam@braimbridge.com>",
-  "license": "MIT",
-  "devDependencies": {
-    "eslint": "^5.16.0",
-    "eslint-plugin-jest": "^22.4.1",
-    "husky": "^1.3.1",
-    "jest": "^24.5.0",
-    "prettier": "1.16.4",
-    "serverless-google-cloudfunctions": "^2.3.2"
-  }
+	"name": "coterie",
+	"version": "0.1.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "jest --verbose"
+	},
+	"author": "Adam Braimbridge <adam@braimbridge.com>",
+	"license": "MIT",
+	"devDependencies": {
+		"eslint": "^5.16.0",
+		"eslint-plugin-jest": "^22.4.1",
+		"husky": "^1.3.1",
+		"jest": "^24.5.0",
+		"prettier": "1.16.4"
+	}
 }
